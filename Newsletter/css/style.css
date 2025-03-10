@@ -1,0 +1,503 @@
+/* letter 관련 style */
+
+@font-face {
+  font-family: 'Pretendard-Regular';
+  src: url('https://fastly.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff') format('woff');
+  font-weight: 400;
+  font-style: normal;
+}
+
+*{ margin: 0; padding: 0; box-sizing: border-box;}
+
+body{
+  width: 100vw;
+  overflow-x:hidden;
+}
+
+a{
+  color: inherit;
+  text-decoration: none;
+}
+
+ul,li{
+  list-style: none;
+}
+
+/* ============레이아웃============= */
+
+/* right-mo(모달 메뉴) */
+/* .hidePC{
+    display: block;
+} */
+
+.right-mo{
+  background-color: rgba(0, 0, 0, 0.7);
+  position: fixed;
+  top: 0; left: 0; right: 0; bottom: 0;
+  z-index: 9999;
+}
+
+.right-mo nav{
+  width: 70vw;
+  min-width: 330px;
+  position: fixed;
+  top: 0; right: 0; bottom: 0;
+  background-color: #065B65;
+  padding-top: 30px;
+}
+
+.right-mo .gnb>li>a {
+  display: block;
+  width: 100%;
+  padding: 18px 38px;
+  color: #fff;
+  font-family: 'Pretendard';
+  font-size: 18px;
+}
+
+.right-mo .util{
+  width: 280px;
+  margin-top: 400px;
+  padding:0 40px;
+  display: flex;
+  justify-content: space-between;
+  /* border: 1px solid red; */
+}
+
+/* 메뉴 아이콘 가리기 (반응형) */
+header .header_t .menu_btn{
+  display: none;
+}
+
+
+
+header{
+  width: 100vw;
+  height: 94px;
+  background: #fff;
+  /* border:  1px solid red; */
+  /* 메인의 헤더를 복사 붙히기 할것 */
+}
+
+header .header_t{
+  width: 95%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  /* border: 1px solid; */
+  padding-top: 24px;
+}
+
+header .header_t nav{
+  width: 69.5vw;
+  display: flex;
+  justify-content: space-between;
+
+}
+
+header .header_t ul{
+  display: flex;
+  align-items:center;
+}
+
+header .header_t .gnb{
+  width: 814px;
+  justify-content: space-between;
+}
+
+header .header_t .gnb li a{
+  color: #333;
+  text-align: center;
+  font-family: 'Pretendard';
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  letter-spacing: -0.5px;
+  
+}
+
+header .header_t .gnb li a:hover{
+  color: #12A4A7;
+}
+
+header .header_t .util{
+  width: 225px;
+  justify-content: space-between;
+  padding-top: 10px;
+}
+
+header .header_t .util li img{
+  width: 24px;
+  margin: 10px;
+}
+
+/* ================================================ */
+
+.sec1{
+  width: 100vw; height: 360px;
+  background-color: #18C8C8;
+  padding-top: 100px;
+}
+
+.sec1 .icon-letter{
+  width: 70px; height: 70px;
+  display: block;
+  margin: 0 auto;
+  /* margin-top: 90px; */
+}
+
+.sec1 h1 {
+  display: block;
+  color: #fff;
+  text-align: center;
+  margin-top: 10px;
+
+  font-family: 'Pretendard';
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.sec2 {
+  width: 100%; height: auto;
+  background: #F3FFFF;
+  /* border: red 1px solid; */
+}
+
+.sec2 .inner-box{
+  width: 65vw; height: auto;
+  background-color: #fff;
+  margin: 0 auto;
+}
+
+.sec2 .inner{
+  display: block;
+  width: 56vw; height:auto;
+  margin: 0 auto;
+  /* border: 1px solid red; */
+}
+
+.sec2 .inner .title-1 {
+  color: #12A4A7;
+  font-family: 'Pretendard';
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 140%;
+  /* 33.6px */
+  letter-spacing: -0.6px;
+
+  padding-top: 132px;
+  /* margin-left: 70px; */
+}
+
+.sec2 .inner .title-artist {
+  color: #191919;
+  font-family: 'Pretendard';
+  font-size: 26px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 140%;
+  /* 42px */
+  letter-spacing: -0.75px;
+
+  margin-top: 2px;
+  /* margin-left: 70px; */
+  margin-bottom: 36px;
+
+}
+
+
+.sec2 .inner .sec2-pic{
+  display: block;
+  width: 99%;
+  margin: 0 auto;
+}
+
+.sec2 .inner .sec2-pic img{
+  /* 아티스트 이미지 */
+  border-radius:40px;
+  width: 100%;
+  box-shadow: 0px 4px 12px 0px rgba(0, 0, 0, 0.12);
+}
+
+/* 본문 */
+
+.sec2 article{
+  margin-bottom: 80px;
+}
+
+
+
+.sec2 .inner .sec2-pic p {
+  color: #999;
+  text-align: center;
+  font-family: 'Pretendard';
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 160%;
+  /* 25.6px */
+  letter-spacing: -0.4px;
+}
+
+.sec2 p {
+  /* 본문 텍스트 */
+  color: #191919;
+  font-family: 'Pretendard';
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 160%;
+  /* 28.8px */
+  letter-spacing: -0.45px;
+  
+}
+
+.sec2 .start-p{
+  /* 본문 시작 : 안녕하세요?- */
+  margin-top: 80px;
+  margin-bottom: 40px;
+}
+
+.sec2 .art2 p, .sec2 .art4 p{
+  margin-left: 16px;
+  color: #666;
+
+}
+
+
+
+
+.sec2 .t-text  {
+  /* 소제목 */
+  color: #12A4A7;
+  font-family: 'Pretendard';
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 150%;
+  /* 39px */
+  letter-spacing: -0.65px;
+  margin-bottom: 8px;
+}
+
+.sec2 .medium-text {
+  /* 강조 bold text */
+  display: block;
+  color: #191919;
+  font-family: 'Pretendard';
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 150%;
+  /* 39px */
+  letter-spacing: -0.65px;
+
+  margin-top: 10px;
+  margin-left: 16px;
+}
+
+
+.sec2 .answer{
+  margin-left: 16px;
+  display: flex;
+}
+
+.sec2 .answer p{
+  color: #666;
+}
+.sec2 .answer p:nth-child(1){
+  margin-right: 8px;
+}
+
+
+.gray-line{
+  /* 회색 라인  */
+  width: 56vw; height: 1px;
+  margin: 0 auto;
+  margin-bottom: 80px;
+  background-color: #999;
+
+}
+
+.sec2 .medium-text-gray {
+  color: #999;
+  font-family: 'Pretendard';
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 140%;
+  /* 28px */
+  letter-spacing: -0.5px;
+}
+
+.sec2 .text-gray {
+  display: block;
+  color: #666;
+  font-family: 'Pretendard';
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 140%;
+  
+  letter-spacing: -0.5px;
+  margin-top: 8px;
+  margin-bottom: 60px;
+
+}
+
+
+.sec2 .text-gray-end {
+  color: #666;
+  font-family: 'Pretendard';
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 140%;
+  /* 28px */
+  letter-spacing: -0.5px;
+  margin-top: 8px;
+}
+
+.sec2 .text-gray-end:last-child{
+  display: block;
+  margin-bottom: 40px;
+}
+
+.sec2 .text-color-end {
+  color: #38BBD9;
+  font-family: 'Pretendard';
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 140%;
+  /* 22.4px */
+  letter-spacing: 0.5px;
+
+  margin-top: 26px;
+  margin-bottom: 60px;
+}
+
+
+/* 버튼 */
+.btn-letter{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  /* margin-top: 60px; */
+  margin: 0 auto;
+  /* border: 1px solid red; */
+  align-items: center;
+  margin-bottom: 60px;
+}
+
+.btn-letter button{
+  display: block;
+  color: #fff;
+  cursor: pointer;
+  text-align: center;
+  margin-right: 12px;
+  margin-bottom: 20px;
+  font: 14px/1 ''Pretendard'';
+  padding: 16px 20px;
+}
+
+.btn-letter button:hover{
+  opacity: 0.7;
+  color: #111;
+}
+
+.btn-letter button:last-child{
+  margin-right: 0;
+}
+
+.btn-letter .prev{
+  background-color: #72BDBD;
+  border-radius: 50px;
+
+  border: none;
+}
+
+
+.btn-letter .more, .btn-letter .recommand{
+  background-color: #18C8C8;
+  border-radius: 50px;
+  border: none;
+}
+
+
+
+
+/* ======================================================= */
+
+footer{
+  width: 100vw; height: 400px;
+  background: #4B5658;
+  padding-top: 100px;
+}
+
+footer .inner{
+  width: 62.5vw;
+  margin: 0 auto;
+}
+
+footer .f-top{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+footer .f-top .menu{
+  align-items: end;
+  width: 74%;
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 8px;
+}
+
+footer .f-top .menu a {
+  color: #F4F4F4;
+  font-family: 'Pretendard';
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 18px;
+}
+
+footer h3 {
+  color: #FFF;
+  font-family: 'Pretendard';
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 18px;
+  margin-top: 24px;
+}
+
+footer .f-bottom{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 16px;
+}
+
+footer b{
+  display: block;
+  color: #c8c8c8;
+  font-weight: 500;
+  font-family: 'Pretendard';
+  margin-bottom:4px;
+}
+
+footer p{
+  color: #c8c8c8;
+  font-weight: 300;
+  font-family: 'Pretendard';
+  line-height: 160%;
+}
+
+.f-icon-wrap{
+  display: none;
+}
