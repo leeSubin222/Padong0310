@@ -1,0 +1,893 @@
+/* 반응형 레이아웃 */
+
+@media all and (max-width:1300px) {
+
+    /* ====== header ================================ */
+
+
+    header .header_t {
+        position: relative;
+    }
+
+    header .header_t nav {
+        display: none;
+    }
+
+    header .header_t .menu_btn {
+        display: block;
+        background: url(../img/icon_Menu.png) no-repeat center center;
+        position: absolute;
+        top: 40px;
+        right: 20px;
+        width: 40px;
+        text-indent: -9999px;
+        /* 글씨 없앰 */
+    }
+
+    header .large-text img {
+        width: 500px;
+    }
+
+    header .header_btn {
+        display: flex;
+        justify-content: center;
+        margin-top: 164px;
+    }
+
+
+
+    /* ====== section ================================ */
+    .section1and2 .sec1-bg {
+        display: block;
+        width: 1500px;
+        top: -119px;
+        left: -22%;
+
+        overflow: hidden;
+    }
+
+    .sec1 .sec1-b {
+        /* border: 1px solid red; */
+        position: absolute;
+        left: 50%;
+        top: 65%;
+        transform: translateX(-50%);
+        width: 835px;
+        height: auto;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .sec1 .sec1-b .t-color {
+        font-size: 28px;
+        line-height: 150%;
+    }
+
+    .sec1 .sec1-b .sec1-b-2 .sec1-icon-wrapper {
+        width: 220px;
+        margin: 10px 0;
+    }
+
+    .sec1 .sec1-b .sec1-b-2 .sec1-icon-wrapper img {
+        width: 80%;
+        align-items: end;
+    }
+
+    .sec1 .sec1-b .sec1-b-2 p {
+        margin: 0;
+    }
+
+    .sec1 .sec1-b .sec1-b-2 .sec1-t {
+        font-size: 20px;
+        margin-top: 0px;
+    }
+
+    /* ==================== */
+
+
+    .sec3 .sec3-img {
+        width: 45vw;
+        height: 632px;
+        top: 110px;
+        left: 80px;
+        transform: translateX(0);
+    }
+
+    .sec3 .t-box-wrap {
+        top: 110px;
+        right: 80px;
+    }
+
+    .sec3 .t-box {
+        width: 36vw;
+        height: 200px;
+        margin-bottom: 16px;
+    }
+
+    .sec3 .t-box p {
+        font-size: 24px;
+    }
+
+    /* ==================== */
+
+    .sec5 .inner {
+        width: 100%;
+    }
+
+    .sec5 .sec5-btn {
+        width: 800px;
+        margin: 0 auto;
+        display: flex;
+        /* border: 1px solid red; */
+    }
+
+    .sec5 .sec5-right {
+        display: block;
+    }
+
+    .sec5 .sec5-sns {
+        width: 380px;
+        height: 222px;
+        border-radius: 35px;
+
+        box-shadow: 0px 4px 11px 0px rgba(6, 91, 101, 0.10);
+        margin-right: 0;
+
+    }
+
+    .sec5 .sec5-sns h4 {
+        display: block;
+        font-size: 26px;
+        margin-bottom: 20px;
+
+        position: absolute;
+        top: 26px;
+        left: 43px;
+    }
+
+    .sec5 .sec5-sns p {
+        position: absolute;
+        left: 43px;
+        bottom: 60px;
+        font-size: 20px;
+    }
+
+    .sec5 .sec5-newsletter {
+        height: 222px;
+        margin-top: 24px;
+    }
+
+    .sec5 .sec5-newsletter h4 {
+        display: block;
+        font-size: 26px;
+
+        position: absolute;
+        top: 26px;
+        left: 43px;
+    }
+
+    .sec5 .sec5-newsletter .s-title {
+        display: block;
+        font-size: 18px;
+        position: absolute;
+        top: 64px;
+        left: 43px;
+    }
+
+    .sec5 .sec5-newsletter .news-bottom {
+        width: 294px;
+        display: flex;
+        justify-content: space-between;
+        align-items: end;
+
+        position: absolute;
+        bottom: 34px;
+        left: 43px;
+    }
+
+    .sec5 .sec5-newsletter .news-bottom .artist-img {
+        width: 80px;
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+
+    .sec5 .sec5-newsletter .news-bottom .txt p {
+        font-size: 16px;
+    }
+
+    .sec5 .sec5-newsletter .bg {
+        width: 34%;
+        top: 60px;
+    }
+
+    /*  */
+
+    .sec6 .small-2 {
+        display: block;
+        margin-bottom: 20px;
+    }
+
+    .sec6 .sec6_btn {
+        margin-top: 20px;
+        display: block;
+        position: absolute;
+        bottom: 110px;
+        left: 50%;
+        transform: translate(-50%, 20px);
+        z-index: 99;
+    }
+
+
+    .sec6 .sec6_btn div img {
+        width: 26px;
+        height: 26px;
+    }
+
+    .sec6 .sec6_btn .appstore {
+        margin: 0 auto;
+    }
+
+    .sec6 .sec6_btn .googleplay {
+        margin: 10px auto;
+    }
+
+
+
+
+
+    /* ====== section ================================ */
+
+        /* ====== footer ================================ */
+        footer {
+            width: 100vw;
+            height: 500px;
+            background: #4B5658;
+            padding-top: 100px;
+        }
+    
+        footer .inner {
+            width: 90%;
+        }
+    
+        footer .f-top {
+            display: block;
+        }
+    
+        footer .f-top .logo {
+            display: block;
+            text-align: center;
+            margin-bottom: 35px;
+            /* border: 1px solid red; */
+        }
+    
+        footer .f-top .menu {
+            margin: 0 auto;
+            width: 90%;
+        }
+    
+        footer h3 {
+            display: block;
+            text-align: center;
+            margin-bottom: 35px;
+        }
+    
+        footer .f-bottom {
+            display: block;
+        }
+    
+        footer .f-bottom p {
+            text-align: center;
+        }
+    
+        /* footer .f-bottom h3{
+            display: block;
+            text-align: center;
+        }
+        */
+        footer .f-b-r {
+            display: flex;
+            justify-content: center;
+            align-items: first baseline;
+            margin-top: 20px;
+            margin-bottom: 200px;
+        }
+    
+        footer .f-b-r b {
+            margin-right: 10px;
+        }
+    
+        /* ====== footer = 끝 =============================== */
+
+}
+
+
+
+
+
+
+
+
+
+
+
+@media (min-width:390px) and (max-width:768px) {
+
+
+    header .large-text img {
+        width: 300px !important;
+    }
+
+    header .logo img{
+        /* 로고 이미지 사이즈 변경 */
+        width: 146px;
+        transform: translateY(2px);
+    }
+
+
+    header p {
+        font-size: 16px;
+    }
+
+    header .h-text3 {
+        font-size: 24px;
+    }
+
+    header .large-text {
+        margin-top: 20px;
+    }
+
+
+    /* 버튼 */
+    header .header_btn {
+        display: block;
+        text-align: center;
+    }
+
+    header .header_btn .appstore {
+        margin: 0 auto;
+    }
+
+    header .header_btn .googleplay {
+        margin: 20px auto;
+    }
+
+
+    /* =========== section ============= */
+
+    .section1and2 .sec1-bg {
+        display: block;
+        width: 800px;
+        top: 100px;
+        left: -53%;
+
+        overflow: hidden;
+    }
+
+    .sec1 {
+        height: 944px;
+    }
+
+    .sec1-top {
+        height: 260px;
+        padding-top: 46px;
+    }
+
+    .sec1-top img {
+        width: 80px;
+    }
+
+    .sec1-top .t-gray {
+        display: block;
+        width: 55%;
+        text-align: center;
+        font-size: 24px;
+        margin: 15px auto;
+        line-height: 160%;
+        word-break: break-all;
+    }
+
+    .sec1 .sec1-b {
+        width: 70%;
+        display: block;
+        position: absolute;
+        top: 64%;
+        left: 50%;
+        transform: translateX(-50%);
+        /* border: 1px solid red; */
+    }
+
+    .sec1 .sec1-b .t-color {
+        font-size: 18px;
+    }
+
+    .sec1 .sec1-b .sec1-b-2 {
+        margin-top: 18px;
+    }
+
+    ;
+
+    .sec1 .sec1-b .sec1-b-2 span {
+        font-size: 24px;
+    }
+
+    .sec1 .sec1-b .sec1-b-2 .sec1-t {
+        font-size: 14px;
+        font-weight: normal;
+    }
+
+    /* ==================== */
+    .sec-title {
+        /* 섹션 소제목 크기 */
+        font-size: 20px;
+    }
+
+    .sec-s-title {
+        /* 섹션 소소제목 크기 */
+        font-size: 14px;
+    }
+
+    .sec2 {
+        padding-top: 100px;
+    }
+
+    .sec2 article {
+        margin-bottom: 30px;
+    }
+
+    .sec2 article img {
+        width: 200px;
+        margin-bottom: 0;
+    }
+
+    .sec2 article h4 {
+        font: 16px/30px 'Pretendard';
+        font-weight: 800;
+        margin-top: 0px;
+    }
+
+    .sec2 article p {
+        font-size: 13px;
+        line-height: 145%;
+        font-weight: normal;
+    }
+
+    /* ==================== */
+
+    .sec3 {
+        padding-top: 0;
+        height: 844px;
+    }
+
+    .sec3 .sec3-img {
+        position: static;
+        width: 346px;
+        height: 346px;
+        margin: 0 auto;
+        margin-top: 28px;
+    }
+
+    .sec3 .t-box-wrap {
+        position: static;
+    }
+
+    .sec3 .t-box-wrap .t-box {
+        width: 346px;
+        height: 100px;
+        margin: 10px auto;
+        display: flex;
+        padding-top: 24px;
+    }
+
+    .sec3 .t-box-wrap .t-box h2 {
+        position: static;
+        font-size: 40px;
+        margin-right: 20px;
+
+    }
+
+    .sec3 .t-box-wrap .t-box p {
+        position: static;
+        font-size: 18px;
+
+    }
+
+    /* ==================== */
+    /* 유저 리뷰 */
+    .sec4 {
+        width: 100%;
+        padding-top: 80px;
+        position: relative;
+    }
+
+    .sec4 .txt {
+        width: 100%; height: 240px;
+        background-color: #f9f9f9;
+        position: absolute;
+        z-index: 999;
+        padding: 12px;
+        box-shadow: 0 6px 12px rgba(0, 0, 0, 0.02);
+        /* border: 1px solid red; */
+    }
+
+    .sec4 .user-score {
+        margin-top: 20px;
+    }
+
+
+
+    .sec4 .user-review-t {
+        display: block;
+        position: absolute;
+        top: 350px;
+        left: 15%;  /* 가운데 */
+        width: 346px; /* 명확한 width 설정 */
+        height: 700px;
+        overflow: hidden;
+        transform-origin: center;
+        /* border: 1px solid red; 경계선으로 시각적 확인 */
+    }
+
+    .sec4 div .r-box {
+        width: 346px;
+        transition: ease-in-out;
+    }
+
+    .sec4 .user-review-b {
+        display: none;
+    }
+
+
+    /* ==================== */
+
+    .sec5 {
+        padding-top: 100px;
+        height: 900px;
+    }
+
+    .sec5 .inner {
+        width: 346px;
+        margin: 0 auto;
+    }
+
+    .sec5 .sec-title {
+        text-align: center;
+        margin-bottom: 36px;
+    }
+
+    .sec5 .sec5-btn {
+        width: 346px;
+        display: block;
+    }
+
+    .sec5 .btn-gray {
+        width: 346px;
+        height: 100px;
+        padding: 20px 30px;
+        margin-bottom: 10px;
+        margin-right: 0;
+
+    }
+
+    .sec5 .btn-gray a .txt h4 {
+        font-size: 20px;
+        margin-bottom: 14px;
+    }
+
+    .sec5 .btn-gray a .txt p {
+        font-size: 14px;
+    }
+
+    .sec5 .btn-gray a img {
+        display: block;
+        width: 60px;
+        height: 60px;
+    }
+
+
+    .sec5 .sec5-sns {
+        width: 346px;
+        height: 140px;
+        margin-top: 10px;
+    }
+
+    .sec5 .sec5-sns h4 {
+        font-size: 22px;
+        top: 20px;
+        left: 30px;
+    }
+
+    .sec5 .sec5-sns p {
+        bottom: 0px;
+        left: 30px;
+        font-size: 16px;
+    }
+
+    .sec5 .sec5-sns .s5-icon-wrap {
+        display: none;
+    }
+
+    .sec5 .sec5-newsletter {
+        width: 346px;
+        height: 140px;
+        margin-top: 8px;
+    }
+
+    .sec5 .sec5-newsletter h4 {
+        font-size: 22px;
+        top: 20px;
+        left: 30px;
+    }
+
+    .sec5 .sec5-newsletter .s-title {
+        font-size: 14px;
+        top: 50px;
+        left: 30px;
+    }
+
+    .sec5 .sec5-newsletter .news-bottom {
+        width: 200px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        position: absolute;
+        bottom: 16px;
+        left: 30px;
+    }
+
+    .sec5 .sec5-newsletter .news-bottom .artist-img {
+        width: 40px;
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+
+    .sec5 .sec5-newsletter .news-bottom .txt p {
+        font-size: 12px;
+    }
+
+    .sec5 .sec5-newsletter .bg {
+        top: 48px;
+        width: 22%;
+
+    }
+
+    /* ==================== */
+
+    .sec6 {
+        width: 100vw;
+        height: 944px;
+    }
+
+    .sec6 .top {
+        display: block;
+        position: absolute;
+        top: 160px;
+        left: 50%;
+        transform: translateX(-50%);
+        z-index: 10;
+        font-size: 18px;
+    }
+
+    .sec6 .padong-symbol {
+        display: block;
+        width: 140px;
+        margin: 0 auto;
+        position: absolute;
+        top: 35%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        z-index: 999;
+    }
+
+    .sec6 h2 {
+        display: block;
+        font-size: 40px;
+        position: absolute;
+        top: 430px;
+        left: 50%;
+        transform: translateX(-50%);
+        z-index: 10;
+    }
+
+    .sec6 .small-1 {
+        /* 파도파도 끝이 없는 음악취향 */
+        display: block;
+        font-size: 18px;
+        position: absolute;
+        top: 480px;
+        left: 50%;
+        transform: translateX(-50%);
+        z-index: 99;
+    }
+
+    .sec6 .small-2 {
+        /* 앱 다운로드 하기 */
+        display: block;
+        position: absolute;
+        top: 660px;
+        left: 50%;
+        transform: translateX(-50%);
+        z-index: 99;
+    }
+
+    .sec6 .bg-circle div {
+        top: 35%;
+    }
+
+
+    /* 버튼 */
+    .sec6 .sec6_btn {
+        display: block;
+        position: absolute;
+        bottom: 110px;
+        left: 50%;
+        transform: translateX(-50%);
+        z-index: 99;
+    }
+
+
+    .sec6 .sec6_btn .appstore {
+        margin: 0 auto;
+    }
+
+    .sec6 .sec6_btn .googleplay {
+        margin: 10px auto;
+    }
+
+
+    /* .sec6 .bg-circle .c1{
+        width: 40vw; height: 40vw;
+        z-index: 4;
+        animation: opacity ease-in-out 3s infinite;
+        opacity: 0;
+    }
+    .sec6 .bg-circle .c2{
+        width: 60vw; height: 60vw;
+        z-index: 3;
+        animation: opacity ease-in-out 3s infinite 0.5s;
+        opacity: 0;
+    }
+    .sec6 .bg-circle .c3{
+        width: 80vw; height: 80vw;
+        z-index: 2;
+        animation: opacity ease-in-out 3s infinite 1s;
+        opacity: 0;
+    }
+    .sec6 .bg-circle .c4{
+        width: 100vw; height: 100vw;
+        z-index: 1;
+        animation: opacity ease-in-out 3s infinite 1.5s;
+        opacity: 0;
+    } */
+
+    .sec6 .bg-circle .c1 {
+        width: 20vw;
+        height: 20vw;
+        z-index: 4;
+        animation-delay: 0s;
+
+    }
+
+    .sec6 .bg-circle .c2 {
+        width: 40vw;
+        height: 40vw;
+        z-index: 3;
+        animation-delay: 0.4s;
+    }
+
+    .sec6 .bg-circle .c3 {
+        width: 60vw;
+        height: 60vw;
+        z-index: 2;
+        animation-delay: 0.8s;
+
+    }
+
+    .sec6 .bg-circle .c4 {
+        width: 80vw;
+        height: 80vw;
+        z-index: 1;
+        animation-delay: 1.2s;
+    }
+
+    .sec6 .bg-circle .c5 {
+        width: 60vw;
+        height: 60vw;
+        z-index: 1;
+        animation-delay: 1.6s;
+    }
+
+
+    /* =========== footer ============= */
+    footer {
+        width: 100vw;
+        height: 1000px;
+    }
+
+    footer .inner {
+        width: 340px;
+        /* border: 1px solid; */
+        margin: 0 auto;
+    }
+
+    footer .f-top .logo {
+        display: block;
+        text-align: left;
+        margin-bottom: 35px;
+        /* border: 1px solid red; */
+    }
+
+    footer .f-top .menu {
+        /* margin: 0 auto; */
+        display: block;
+        text-align-last: left;
+        width: 100%;
+    }
+
+    footer .f-top .menu li {
+
+        margin-bottom: 20px;
+    }
+
+    footer h3 {
+        display: block;
+        text-align: left;
+        margin-bottom: 20px;
+    }
+
+    footer .f-bottom {
+        width: 90%;
+        display: block;
+    }
+
+    footer .f-bottom p {
+        text-align: left;
+    }
+
+    /* footer .f-bottom h3{
+                    display: block;
+                    text-align: center;
+                }
+                */
+    footer .f-b-r {
+        display: block;
+        justify-content: center;
+        align-items: first baseline;
+        margin-top: 10px;
+        margin-bottom: 50px;
+    }
+
+
+    footer .f-b-l p {
+        width: 90%;
+        font-size: 12px;
+        text-align-last: left;
+        overflow-wrap: break-word;
+        white-space: normal;
+        display: block;
+        /* border: 1px solid red; */
+    }
+
+    footer .f-b-r p,
+    footer .f-b-r b {
+        font-size: 12px;
+        text-align-last: left;
+        overflow-wrap: break-word;
+        white-space: normal;
+        display: block;
+        /* border: 1px solid red; */
+    }
+
+    footer .f-icon-wrap {
+        width: 90%;
+        max-width: 340px;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    footer .f-icon-wrap li a img {
+        display: block;
+        width: 36px;
+    }
+
+}
