@@ -1,0 +1,935 @@
+/* 앱 설명 페이지 관련 style */
+
+@font-face {
+    font-family: 'Pretendard-Regular';
+    src: url('https://fastly.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100vw;
+    overflow-x: hidden;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+ul,
+li {
+    list-style: none;
+}
+
+
+/* ========================= */
+.right-mo{
+    background-color: rgba(0, 0, 0, 0.7);
+    position: fixed;
+    top: 0; left: 0; right: 0; bottom: 0;
+    z-index: 9999;
+}
+
+.right-mo nav{
+    width: 70vw;
+    min-width: 330px;
+    position: fixed;
+    top: 0; right: 0; bottom: 0;
+    background-color: #065B65;
+    padding-top: 30px;
+}
+
+.right-mo .gnb>li>a {
+    display: block;
+    width: 100%;
+    padding: 18px 38px;
+    color: #fff;
+    font-family: 'Pretendard';
+    font-size: 18px;
+}
+
+.right-mo .util{
+    width: 280px;
+    margin-top: 400px;
+    padding:0 40px;
+    display: flex;
+    justify-content: space-between;
+    /* border: 1px solid red; */
+}
+
+
+
+
+
+
+header {
+    width: 100vw;
+    height: 94px;
+    background: #fff;
+    /* border:  1px solid red; */
+    /* 메인의 헤더를 복사 붙히기 할것 */
+}
+
+header .header_t {
+    width: 95%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    /* border: 1px solid; */
+    padding-top: 24px;
+}
+
+header .header_t nav {
+    width: 69.5vw;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+header .header_t ul {
+    display: flex;
+    align-items: center;
+}
+
+header .header_t .gnb {
+    width: 814px;
+    justify-content: space-between;
+}
+
+header .header_t .gnb li a {
+    color: #333;
+    text-align: center;
+    font-family: 'Pretendard';
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: -0.5px;
+}
+
+header .header_t .gnb li a:hover{
+    color: #12A4A7;
+}
+
+header .header_t .util {
+    width: 225px;
+    justify-content: space-between;
+    padding-top: 10px;
+}
+
+header .header_t .util li img {
+    width: 24px;
+    margin: 10px;
+}
+
+/* 메뉴 아이콘 가리기 (반응형) */
+header .header_t .menu_btn{
+    display: none;
+}
+
+/* ================================================ */
+.sec1 {
+    width: 100vw;
+    height: 360px;
+    background-color: #18C8C8;
+    padding-top: 100px;
+}
+
+.sec1 .icon {
+    width: 70px;
+    display: block;
+    margin: 0 auto;
+    /* margin-top: 90px; */
+}
+
+.sec1 h1 {
+    display: block;
+    color: #fff;
+    text-align: center;
+    margin-top: 20px;
+
+    font-family: 'Pretendard';
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+/* =============== */
+
+.sec2{
+    width: 100vw; height: 980px;
+    padding-top: 200px;
+    position: relative;
+}
+
+.sec2 .inner{
+    display: flex;
+    justify-content: center;
+    width: 1200px;
+    margin: 0 auto;
+    /* border: 1px solid red; */
+}
+
+.sec2 .inner .phone{
+    display: block;
+    margin-right: 80px;
+}
+
+.sec2 .inner .sec2-right h3{
+    /* 인공지능 친구와 소통*/
+    font: 36px/140% 'Pretendard';
+    letter-spacing: -0.9px;
+    font-weight: 700;
+    color: #20818C;
+}
+
+.sec2 .inner .sec2-right h2{
+    /* 당신의 음악 친구가 되어줄. */
+    font: 50px/140% 'Pretendard';
+    letter-spacing: -1.25px;
+    font-weight: 700;
+    color:#0E4D5B ;
+}
+
+
+.sec2 .inner .color-line{
+    /* 컬러 들어간 라인 */
+    position: absolute;
+    width: 26%; height: 2px;
+    background-color: #18C8C8;
+
+    top: 388px; right: 690px;
+}
+
+.sec2 .inner .color-c{
+    /* 원 */
+    position: absolute;
+    top: -4px; left: 0;
+    width: 10px; height: 10px;
+    border-radius:50% ;
+    background-color: #18C8C8;
+    
+}
+
+
+
+.sec2 .inner .sec2-right .t-box{
+    width: 589px; height: 330px;
+    background-color: #fff;
+    border-radius: 35px;
+    box-shadow: 0px 2px 16px rgba(24, 200, 200, 0.16);
+    margin-top: 30px;
+}
+
+
+.sec2 .inner .sec2-right .t-box p:first-child {
+    /* AI 파동동 */
+    color: #18C8C8;
+    text-align: center;
+    font-family: 'Pretendard';
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 150%;
+    letter-spacing: -0.7px;
+
+    display: block;
+    width: 100%;
+    border-bottom: 1px solid #D9D9D9;
+    padding: 18px 0;
+}
+
+.sec2 .inner .sec2-right .t-box .chara{
+    display: block;
+    margin: 10px auto;
+}
+
+.sec2 .inner .sec2-right .t-box .hello{
+    color: #191919;
+    text-align: center;
+    font-family: 'Pretendard';
+    font-size: 20px;
+
+    display: block;
+    width: 75%;
+    margin: 0 auto;
+    padding: 14px;
+    border-radius: 50px;
+    border: 1px solid #18C8C8 ;
+}
+
+/* =============== */
+
+.sec3{
+    width: 100vw; height: 1080px;
+    position: relative;
+}
+
+.sec3 .inner{
+    /* 풀비율 레이아웃 */
+    width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 999;
+    
+    /* display: none; 1200px 이하일때 가려짐*/
+}
+
+.sec3 .inner .sec3_1{
+    margin-top: 200px;
+}
+
+.s-title{
+    display: flex;
+    align-items: center;
+    /* width: 250px; */
+}
+
+
+
+.s-title h4 {
+    width: auto; 
+    /* height: 50px; */
+    /* border: 1px solid red; */
+
+    display: block;
+    color: #20818C;
+    font-family: 'Pretendard';
+    font-size: 24px;
+    /* line-height: 48px; */
+    font-style: normal;
+    font-weight: 700;
+    letter-spacing: -0.65px;
+
+    margin-left: 12px;
+    /* align-items: center; */
+    /* padding-top: 20px 0 !important; */
+}
+
+.b-title p {
+    color: #0E4D5B;
+    font-family: 'Pretendard';
+    font-size: 44px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 150%;
+    /* 66px */
+    letter-spacing: -1.1px;
+}
+
+.b-title{
+    color: #0E4D5B;
+    font-family: 'Pretendard';
+    font-size: 44px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 150%;
+    /* 66px */
+    letter-spacing: -1.1px;
+}
+
+.sec3 .inner .sec3_1 .b-title {
+    margin-bottom: 10px;
+    color: #0E4D5B;
+    font-family: 'Pretendard';
+    font-size: 44px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 150%;
+    /* 66px */
+    letter-spacing: -1.1px;
+}
+
+
+
+.sec3 .inner .sec3_1 p {
+    color: #191919;
+    font-family: 'Pretendard';
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 160%;
+    /* 32px */
+    letter-spacing: -0.5px;
+}
+
+.sec3 .sec3_2{
+    padding-top: 140px;
+}
+
+.sec3 .sec3_2 h4 {
+    /* 나의 아티스트 설정하기 */
+    color: #20818C;
+    text-align: center;
+    font-family: 'Pretendard';
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 42px;
+
+    letter-spacing: -0.65px;
+    
+    margin-bottom: 8px;
+    
+}
+
+.sec3 .sec3_2 img{
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+    transform: translateX(0px);
+}
+
+
+
+.sec3 .sec3_3 p {
+    color: #666;
+    text-align: center;
+    font-family: 'Pretendard';
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 140%;
+    /* 25.2px */
+    letter-spacing: -0.45px;
+}
+
+.sec3 .sec3_3 img{
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+    transform: translateX(0px);
+}
+
+.sec3 .sec3_4{
+    padding-top: 200px;
+}
+
+.sec3 .sec3_4 p{
+    color: #666;
+    text-align: center;
+    font-family: 'Pretendard';
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 140%;
+    /* 25.2px */
+    letter-spacing: -0.45px;
+}
+
+.sec3 .sec3_4 img{
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+    transform: translateX(0px);
+}
+
+.sec3 .bg-circle div{ /* 배경이 되는 원 */
+    position: absolute;
+    background: radial-gradient(50% 50% at 50% 50%, #18C8C8 0%, rgba(75, 204, 206, 0.75) 63%, rgba(165, 211, 217, 0.20) 100%);
+    border-radius: 50%;
+    opacity: 0.85;
+    top: 42%;left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 0;
+}
+
+.sec3 .bg-circle .c1{
+    width: 14vw; height: 14vw;
+    z-index: 4;
+    opacity:1;
+    
+}
+.sec3 .bg-circle .c2{
+    width: 18vw; height: 18vw;
+    z-index: 3;
+    opacity: 0.8;
+}
+.sec3 .bg-circle .c3{
+    width: 22vw; height: 22vw;
+    z-index: 2;
+    opacity: 0.8;
+}
+.sec3 .bg-circle .c4{
+    width: 26vw; height: 26vw;
+    z-index: 1;
+    opacity: 0.8;
+}
+
+
+/* ==== 반응형 1200px 미만 레이아웃 ==== */
+.sec3-1200{
+    width: 100vw;
+    display: none;
+}
+
+.sec3-1200 .sec3_1{
+    /* border: 1px solid red; */
+    width: 400px;
+    margin: 0 auto;
+}
+
+.sec3 .sec3-1200-wrap {
+    display: flex;
+    justify-content: center;
+}
+
+.sec3 .sec3-1200-wrap .sec3_2{
+    padding-top: 70px;
+    margin-right: 100px;
+}
+.sec3 .sec3-1200-wrap .sec3_3{
+    padding-top: 100px;
+}
+
+.sec3 .sec3-1200-wrap .phone{
+    width: 230px;
+}
+
+.sec3 .sec3-1200 .sec3_3 ul li:first-child{
+    display: none;
+}
+
+.sec3 .sec3-1200-wrap .sec3_3{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 380px;
+    /* border: 1px solid red; */
+}
+
+.sec3 .sec3-1200-wrap .sec3_3 a img{
+    width: 48px;
+}
+
+.sec3-1200-wrap .sec3_3 ul{
+    display: flex;
+    overflow: hidden;
+    /* 자바스크립트 슬라이드 필요*/
+    width:230px; height: 510px;
+    /* transition: transform 0.4s ease-in-out; 부드러운 이동 */
+
+    /* border: 1px solid red; */
+}
+
+/* ======================= */
+
+.sec4{
+    width: 100vw; height: 1080px;
+}
+
+.sec4 .inner{
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.sec4 .inner p {
+    color: #191919;
+    font-family: 'Pretendard';
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 160%;
+    /* 32px */
+    letter-spacing: -0.5px;
+}
+
+.sec4 .inner .sec4-wrap{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+    /* border: 1px solid red; */
+}
+
+.sec4 .inner .sec4-wrap .wrap{
+    display: flex;  /* 요소들을 가로 정렬 */
+    overflow: hidden;
+    /* border: 1px solid red; */
+    width: 100%; /* 슬라이드 범위 */
+}
+
+.sec4 .inner .sec4-wrap .phone{
+    width: 300px;
+}
+
+.sec4 .inner .sec4-wrap p {
+    width: 100%;
+    text-align: center;
+    margin-top: 8px;
+    color: #667779;
+    text-align: center;
+    font-family: 'Pretendard';
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 140%;
+    /* 28px */
+    letter-spacing: -0.5px;
+}
+
+.sec4 .sec4-wrap-2{
+    display: none;
+}
+
+
+
+
+.sec5{
+    width: 100vw; height: 1080px;
+    padding-top: 160px;
+    position: relative;
+}
+
+.sec5 .inner {
+    width: 1200px;
+    margin: 0 auto;
+    position: absolute;
+    left: 50%; transform: translateX(-50%);
+    z-index: 9;
+}
+
+.sec5 .inner .s-title{
+    display: flex;
+    justify-content: center;
+    /* 소타이틀 중앙정렬 */
+}
+
+.sec5 .inner .b-title{
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+.sec5 .inner .sec5-wrap{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+    margin-bottom: 60px;
+}
+
+.sec5 .inner .sec5-wrap p {
+    color: #667779;
+    font-family: 'Pretendard';
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 140%;
+    /* 28px */
+    letter-spacing: -0.5px;
+
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.sec5 .inner .sec5-wrap .p-left{
+    text-align: left;
+    margin-left: 30px;
+}
+
+.sec5 .inner .sec5-wrap .p-center{
+    text-align: center;
+}
+
+.sec5 .inner .sec5-wrap .p-right{
+    text-align: right;
+    margin-right: 30px;
+}
+
+
+.sec5 .inner .sec5-p {
+    color: #191919;
+    font-family: 'Pretendard';
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 160%;
+    /* 32px */
+    letter-spacing: -0.5px;
+
+    text-align: center;
+}
+
+.sec5 .inner .sec5-wrap .box:last-child{
+    display: none;
+}
+
+.sec5 .bg-circle div{ /* 배경이 되는 원 */
+    position: absolute;
+    display: block;
+    background: radial-gradient(50% 50% at 50% 50%, #18C8C8 0%, rgba(75, 204, 206, 0.75) 63%, rgba(165, 211, 217, 0.20) 100%);
+    border-radius: 50%;
+    opacity: 0.85;
+    top: 60%;left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: -9;
+}
+
+.sec5 .bg-circle .c1{
+    width: 10vw; height: 10vw;
+    z-index: 4;
+    opacity:1;
+    
+}
+.sec5 .bg-circle .c2{
+    width: 14vw; height: 14vw;
+    z-index: 3;
+    opacity: 0.8;
+}
+.sec5 .bg-circle .c3{
+    width: 18vw; height: 18vw;
+    z-index: 2;
+    opacity: 0.8;
+}
+.sec5 .bg-circle .c4{
+    width: 22vw; height: 22vw;
+    z-index: 1;
+    opacity: 0.8;
+}
+
+
+
+.sec6{
+    width: 100vw; height:1080px;
+    position: relative;
+    margin: 100px 0;
+}
+
+.sec6 .inner{
+    width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    left: 50%; transform: translateX(-50%);
+    z-index: 9;
+}
+
+.sec6 .inner .sec6-l{
+    margin-right: 153px;
+    padding-top: 350px ;
+}
+
+.sec6 .inner .sec6-r{
+    padding-top: 200px;
+}
+
+.sec6 .inner p {
+    color: #191919;
+    font-family: Pretendard;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 160%;
+    /* 32px */
+    letter-spacing: -0.5px;
+
+    margin-top: 14px;
+}
+
+
+.sec6 .bg-iphone{
+    position: absolute;
+    right: 0; top: 50%;
+    transform: translateY(-50%);
+    z-index: -9;
+}
+
+
+
+/*  sec 7 */
+
+.sec7{
+    width: 100vw; height: 1080px;
+    position: relative;
+}
+
+.sec7 .inner{
+    width: 1200px;
+    margin: 0 auto;
+    /* border: 1px solid red; */
+}
+
+
+
+.sec7 .inner .sec7-t{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 80px;
+}
+
+.sec7 .inner .sec7-t p {
+    width: 800px;
+    
+    color: #191919;
+    text-align: right;
+    font-family: ''Pretendard'';
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 160%;
+    /* 32px */
+    letter-spacing: -0.5px;
+
+    margin-top: 20px;
+    /* border: 1px solid red; */
+}
+
+
+.sec7 .inner .sec7-b{
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: space-between;
+}
+
+/* .sec7 .inner .sec7-b img{
+    box-shadow:0px 4px 20px 0px rgba(24, 200, 200, 0.25); 
+    그림자를 넣지 않은게 더 깔끔할 것 같다고 판단.
+} */
+
+.sec7 .inner .sec7-b p {
+    color: #667779;
+    font-family: 'Pretendard';
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 140%;
+    /* 28px */
+    letter-spacing: -0.5px;
+
+    margin: 10px 0;
+}
+
+.sec7 .bg-bottom{
+    position: absolute;
+    width: 100%;
+    bottom: -300px; right: 0;
+    z-index: -999;
+}
+
+.sec7 .inner .sec7-b-390{
+    /* border: 1px solid blue; */
+    width: 346px;
+    margin: 0 auto;
+    display: none;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.sec7 .inner .sec7-b-390 .wrap{
+    width: 200px;
+    overflow: hidden;
+}
+
+.sec7 .inner .sec7-b-390 .wrap ul{
+    width:540px; height: 470px;
+    display: flex;
+    /* border: 1px solid; */
+}
+
+.sec7 .inner .sec7-b-390 .wrap ul li{
+    position: relative;
+}
+
+.sec7 .inner .sec7-b-390 .wrap ul li .phone{
+    width: 200px;
+}
+
+.sec7 .inner .sec7-b-390 .wrap li p{
+    color: #667779;
+    font-family: 'Pretendard';
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 140%;
+    /* 28px */
+    letter-spacing: -0.5px;
+
+    margin: 4px 0;
+    text-align: center;
+}
+
+/* ================================================ */
+
+footer {
+    width: 100vw;
+    height: 400px;
+    background: #4B5658;
+    padding-top: 100px;
+}
+
+footer .inner {
+    width: 62.5vw;
+    margin: 0 auto;
+}
+
+footer .f-top {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+footer .f-top .menu {
+    align-items: end;
+    width: 74%;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 8px;
+}
+
+footer .f-top .menu a {
+    color: #F4F4F4;
+    font-family: 'Pretendard';
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 18px;
+}
+
+footer h3 {
+    color: #FFF;
+    font-family: 'Pretendard';
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 18px;
+    margin-top: 24px;
+}
+
+footer .f-bottom {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 16px;
+}
+
+footer b {
+    display: block;
+    color: #c8c8c8;
+    font-weight: 500;
+    font-family: 'Pretendard';
+    margin-bottom: 4px;
+}
+
+footer p {
+    color: #c8c8c8;
+    font-weight: 300;
+    font-family: 'Pretendard';
+    line-height: 160%;
+}
+
+.f-icon-wrap{
+    display: none;
+}

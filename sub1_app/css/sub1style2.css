@@ -1,0 +1,827 @@
+/* 반응형 헤더 푸터 적용 */
+
+@media all and (max-width:1300px) {
+
+    /* ====== header ================================ */
+    header .header_t {
+        position: relative;
+    }
+
+    header .header_t nav {
+        display: none;
+    }
+
+    header .header_t .menu_btn {
+        display: block;
+        background: url(../img/icon_Menu.png) no-repeat center center;
+        position: absolute;
+        top: 40px;
+        right: 20px;
+        width: 40px;
+        text-indent: -9999px;
+        /* 글씨 없앰 */
+    }
+
+    /* ====== section ================================ */
+    /* s-title, b-title 설정 */
+    .s-title img{
+        width: 40px;
+    }
+    .s-title h4{
+        font-size: 24px;
+    }
+
+    .b-title{
+        margin-top: 4px;
+        font-size: 36px;
+    }
+
+
+
+    /* sec2 */
+    .sec2{
+        width: 100%;
+        height: 768px;
+    }
+
+    .sec2 .inner{
+        width: 100vw;
+    }
+    
+
+    .sec2 .inner .phone{
+        width: 460px;
+        margin-right: 50px;
+    }
+
+    .sec2 .inner .sec2-right h3{
+        /* 인공지능 친구와 소통 */
+        font-size: 26px;
+    }
+    .sec2 .inner .sec2-right h2{
+        /* 당신의 음악 친구가 되어줄 */
+        font-size: 36px;
+    }
+
+    .sec2 .inner .color-line{
+        /* 컬러 들어간 라인 */
+        position: absolute;
+        width:300px; height: 2px;
+        background-color: #18C8C8;
+    
+        top: 350px; right:50%;
+        transform: translateX(50%);
+    }
+
+    .sec2 .inner .sec2-right .t-box{
+        width: 400px; height: 288px;
+        background-color: #fff;
+        border-radius: 35px;
+        box-shadow: 0px 2px 16px rgba(24, 200, 200, 0.16);
+        margin-top: 30px;
+    }
+
+    .sec2 .inner .sec2-right .t-box p:first-child {
+        /* AI 파동동 */
+        font-size: 22px;
+    }
+
+    .sec2 .inner .sec2-right .t-box .chara{
+        display: block;
+        width: 90px;
+    }
+
+    .sec2 .inner .sec2-right .t-box .hello{
+        font-size: 16px;
+        width: 85%;
+    }
+
+    /* sec3 */
+    .sec3 .inner{
+        /* 풀비율 sec3 가림 */
+        display: none;
+    }
+
+    .sec3-1200{
+        height: 768px;
+        padding-top: 40px;
+        display: block;
+        margin-bottom: 100px;
+    }
+
+    .sec3-1200 .s-title{
+        justify-content: center;
+    }
+
+    .sec3-1200 .b-title{
+        text-align: center;
+    }
+
+    .sec3-1200 .img{
+        width: 387px;
+        display: block;
+        margin: 0 auto;
+    }
+
+    .sec3-1200 p{
+        text-align: center;
+    }
+
+    /* sec3 뒤에 원 */
+    .sec3-1200-wrap{
+        position: absolute;
+        z-index: 99;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    .sec3 .bg-circle div{
+        top: 70%; left: 30%;
+        z-index: -99;
+    }
+
+    /* ==== sec4 ==== */
+    .sec4{
+        padding-top: 100px;
+    }
+
+    .sec4 .inner{
+        width: 780px;
+        margin: 0 auto;
+        /* border: 1px solid red; */
+    }
+
+    .sec4 .inner p{
+        font-size: 16px;
+    }
+
+    .sec4 .inner .sec4-wrap{
+        width: 100%;
+        justify-content: space-between;
+    }
+
+    .sec4 .sec4-wrap .box{
+        margin-right: 40px;
+    }
+    .sec4 .sec4-wrap .box:last-child{
+        margin-right: 0px;
+    }
+
+
+    .sec4 .inner .sec4-wrap .phone{
+        width: 210px;
+    }
+
+
+    .sec4 .inner .sec4-wrap p {
+        width: 210px;
+        font-size: 16px;
+        /* border: 1px solid red; */
+    }
+
+    /* ==== sec5 ==== */
+    .sec5 .inner{
+        width: 780px;
+    }
+
+    .sec5 .inner .sec5-wrap p{
+        font-size: 16px;
+    }
+
+    .sec5 .inner .sec5-p{
+        font-size: 18px;
+        line-height: 30px;
+    }
+
+    
+    /* ==== sec6 ==== */
+
+    .sec6 .inner{
+        width: 780px;
+        /* border: 1px solid red; */
+    }
+
+    .sec6 .inner .sec6-l{
+        margin-right: 50px;
+        /* border: 1px solid; */
+    }
+
+    .sec6 .inner .sec6-r .phone{
+        width: 220px;
+    }
+
+    .sec6 .inner .sec6-r{
+        padding-top: 280px;
+        /* 패딩탑으로 위치 조정 */
+    }
+
+    .sec6 .bg-iphone{
+        width: 900px;
+        right: 0px;
+    }
+
+
+
+    /* ==== sec7 ==== */
+    .sec7 .inner {
+        width: 780px;
+        /* border: 1px solid red; */
+    }
+
+
+
+    .sec7 .inner .sec7-t p{
+        width: 550px;
+        margin-top: 20px;
+        font-size: 16px;
+        word-break: keep-all;
+        text-align: right;
+    }
+
+    .sec7 .phone{
+        width: 180px;
+    }
+
+    .sec7 .sec7-b .box p{
+        font-size: 14px;
+    }
+    
+
+
+
+    
+
+
+
+    /* ====== footer ================================ */
+    footer {
+        width: 100vw;
+        height: 500px;
+        background: #4B5658;
+        padding-top: 100px;
+    }
+
+    footer .inner {
+        width: 90%;
+    }
+
+    footer .f-top {
+        display: block;
+    }
+
+    footer .f-top .logo {
+        display: block;
+        text-align: center;
+        margin-bottom: 35px;
+        /* border: 1px solid red; */
+    }
+
+    footer .f-top .menu {
+        margin: 0 auto;
+        width: 90%;
+    }
+
+    footer h3 {
+        display: block;
+        text-align: center;
+        margin-bottom: 35px;
+    }
+
+    footer .f-bottom {
+        display: block;
+    }
+
+    footer .f-bottom p {
+        text-align: center;
+    }
+
+    /* footer .f-bottom h3{
+        display: block;
+        text-align: center;
+    }
+    */
+    footer .f-b-r {
+        display: flex;
+        justify-content: center;
+        align-items: first baseline;
+        margin-top: 20px;
+        margin-bottom: 200px;
+    }
+
+    footer .f-b-r b {
+        margin-right: 10px;
+    }
+
+    /* ====== footer = 끝 =============================== */
+}
+
+
+
+
+@media (min-width:390px) and (max-width:768px) {
+
+    header .header_t .logo a img {
+        width: 146px;
+        transform: translateY(2px);
+    }
+
+    header .header_t .nav {
+        margin-top: 60px;
+    }
+
+
+
+
+    /* =========== section ============= */
+    .sec1{
+        height: 180px;
+        padding-top: 40px;
+    }
+
+    .sec1 .icon {
+        width: 60px;
+    }
+
+    .sec1 h1 {
+        font-size: 26px;
+    }
+    /* ==== */
+    .sec2{
+        padding-top: 0;
+        height: 700px;
+    }
+
+    .sec2 .inner{
+        width: 100vw;
+        height: 600px !important;
+        display: block;
+        height: 944px;
+        position: relative;
+        /* border: 1px solid red; */
+    }
+
+    .sec2-right{
+        width: 360px;
+        margin: 0 auto;
+        margin-top: 50px;
+        /* border: 1px solid red; */
+    }
+
+    .sec2 .inner .sec2-right h3{
+        /* 인공지능 친구와의 소통 */
+        font-size: 18px;
+    }
+    .sec2 .inner .sec2-right h2{
+        /* 당신의 음악친구 */
+        font-size: 26px;
+    }
+
+    .sec2 .inner .sec2-right .t-box{
+        position: absolute;
+        top: 20%;
+        width: 346px; height: 200px;
+        background-color: rgba(255,255,255,0.84);
+    }
+
+    .sec2 .inner .sec2-right .t-box p:first-child{
+        font-size: 16px;
+    }
+
+    .sec2 .inner .sec2-right .t-box .chara{
+        width: 60px;
+        margin: 5px auto;
+    }
+
+    .sec2 .inner .sec2-right .t-box .hello{
+        font-size: 14px;
+    }
+
+    .color-line{
+        display: none;
+    }
+
+    .sec2 .inner .phone{
+        position: absolute;
+        top: 15%;
+        left: 40%;
+        transform: translateX(-50%);
+    }
+
+    /* ==== */
+    .s-title img{
+        width: 24px;
+    }
+    .s-title h4{
+        font-size: 16px;
+    }
+
+    .b-title{
+        margin-top: 4px;
+        font-size: 24px;
+    }
+
+    .sec3-1200 .sec3_1 .img{
+        width: 346px;
+        margin: 0 auto;
+    }
+
+    .sec3-1200 p{
+        text-align: center;
+        font-size: 14px;
+        line-height: 20px;
+    }
+
+    .sec3-1200 .sec3_2{
+        display: none;
+    }
+
+    .sec3 .sec3-1200 .sec3_3{
+        padding-top: 50px;
+        /* opacity: 0; */
+    }
+
+    .sec3 .sec3-1200 .sec3_3 ul li:first-child{
+        display: block;
+    }
+
+    .sec3 .sec3-1200 .sec3_3 ul li p{
+        margin-bottom: 12px;
+    }
+
+    /* sec3 뒤에 원 */
+
+    .sec3 .bg-circle{
+        position: absolute;
+        transform-origin: center;
+        top: 58%; left: 50%;
+    }
+    .sec3 .bg-circle div{
+        transform-origin: center;
+        z-index: -99;
+    }
+
+    .sec3 .bg-circle .c1{
+        transform-origin: center;
+
+        width: 200px; height: 200px;
+        z-index: 4;
+        opacity:1;
+        
+    }
+    .sec3 .bg-circle .c2{
+        width: 240px; height: 240px;
+        z-index: 3;
+        opacity: 0.8;
+    }
+    .sec3 .bg-circle .c3{
+        align-items: center;
+        width:340px; height: 340px;
+        z-index: 2;
+        opacity: 0.8;
+        /* border:  1px solid red; */
+
+    }
+    .sec3 .bg-circle .c4{
+        transform-origin: center;
+        width: 380px; height: 380px;
+        z-index: 1;
+        opacity: 0.8;
+        /* border:  1px solid red; */
+    }
+
+    /* ==== sec4 ==== */
+    .sec4{
+        width: 100vw; height: 844px;
+        /* border: 1px solid red; */
+    }
+
+    .sec4 .inner {
+        width: 380px;
+        /* border: 1px solid red; */
+    }
+
+    .sec4 .inner p{
+        width: 310px;
+        font-size: 14px;
+        overflow-wrap: break-word;
+    }
+
+    .sec4 .inner .sec4-wrap{
+        display: none;
+    }
+
+    .sec4 .sec4-wrap-2{
+        margin-top: 56px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        /* border: 1px solid red; */
+
+    }
+
+    .sec4 .sec4-wrap-2 a{
+        display: block;
+    }
+
+    .sec4 .sec4-wrap-2 .wrap{
+        width: 200px;
+        overflow: hidden;
+        /* border: 1px solid blue; */
+    }
+
+    .sec4 .sec4-wrap-2 .wrap ul{
+        display: flex;
+    }
+
+    .sec4 .sec4-wrap-2 .wrap li{
+        position: relative;
+    }
+
+    .sec4 .sec4-wrap-2 ul .phone{
+        width: 200px;
+    }
+
+    .sec4 .sec4-wrap-2 ul p{
+        width: 200px;
+        text-align: center;
+        margin-top: 12px;
+        width: 100%;
+        text-align: center;
+        margin-top: 8px;
+        color: #667779;
+        text-align: center;
+        font-family: 'Pretendard';
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 140%;
+        /* 28px */
+        letter-spacing: -0.5px;
+    }
+
+    /* .sec5 */
+    .sec5{
+        width: 100vw; height: 1100px;
+        padding-top: 100px;
+    }
+
+    .sec5 .inner{
+        width: 380px;
+        /* border: 1px solid red; */
+    }
+
+    .sec5 .inner .sec5-wrap{
+        flex-wrap: wrap;
+    }
+
+    .sec5 .inner .sec5-wrap p{
+        font-size: 14px;
+    }
+
+    .sec5 .inner .sec5-wrap img{
+        width: 170px;
+    }
+
+    .sec5 .inner .sec5-wrap .p-left{
+        text-align: left;
+        margin-left: 8px;
+    }
+    
+    .sec5 .inner .sec5-wrap .p-center{
+        text-align: right;
+        margin-right: 8px;
+    }
+
+    .sec5 .inner .sec5-wrap .p-right{
+        text-align: left;
+        margin-left: 8px;
+    }
+
+    .sec5 .inner .sec5-wrap .box:nth-child(3){
+        margin-top: 20px;
+    }
+
+    .sec5 .inner .sec5-wrap .box:last-child{
+        display: block;
+    }
+
+    .sec5 .inner .sec5-wrap .p{
+        display: block;
+        width: 170px;
+        font-size: 16px;
+        line-height: 28px;
+        padding: 40px 4px ;
+        color: #191919;
+        font-weight: 400;
+    }
+
+    .sec5 .inner .sec5-p{
+        display: none;
+    }
+
+
+    /* sec5 원 그래픽 */
+    .sec5 .bg-circle{
+        position: absolute;
+        transform-origin: center;
+        top: 50%; left: 50%;
+    }
+    .sec5 .bg-circle div{
+        transform-origin: center;
+        z-index: -99;
+    }
+
+    .sec5 .bg-circle .c1{
+        transform-origin: center;
+        width: 200px; height: 200px;
+        z-index: 4;
+        opacity:0.4;
+    }
+    .sec5 .bg-circle .c2{
+        width: 240px; height: 240px;
+        z-index: 3;
+        opacity: 0.4;
+    }
+    .sec5 .bg-circle .c3{
+        align-items: center;
+        width:340px; height: 340px;
+        z-index: 2;
+        opacity: 0.4;
+        /* border:  1px solid red; */
+
+    }
+    .sec5 .bg-circle .c4{
+        transform-origin: center;
+        width: 380px; height: 380px;
+        z-index: 1;
+        opacity: 0.4;
+        /* border:  1px solid red; */
+    }
+
+
+    /* sec6 : 플레이리스트 제작 ====*/
+    .sec6{
+        width: 100vw; height: 844px;
+        margin-bottom: 100px;
+    }
+
+    .sec6 .inner{
+        width: 380px; height: 100%;
+        display: block;
+        /* border: 1px solid red; */
+    }
+
+    .sec6 .inner .sec6-l{
+        padding-top: 0px;
+    }
+
+    .sec6 .inner p{
+        font-size: 16px;
+    }
+
+    .sec6 .inner .sec6-r{
+        padding-top: 0;
+    }
+
+    .sec6 .inner .sec6-r .phone{
+        display: block;
+        margin: 0 auto;
+        margin-top: 40px;
+        width: 260px;
+    }
+
+    .sec6 .bg-iphone{
+        width: 500px;
+        right: 50%;
+        /* transform: translateX(50%); */
+    }
+
+    /* sec7 */
+    .sec7{
+        width: 100%; height: 884px;
+    }
+    .sec7 .inner{
+        width: 380px;
+        /* border: 1px solid red; */
+    }
+    .sec7 .inner .sec7-t{
+        display: block;
+    }
+
+    .sec7 .inner .sec7-t{
+        margin-bottom: 50px;
+    }
+
+    .sec7 .inner .sec7-t>p{
+        width: 380px;
+        font-size: 16px;
+        text-align: left;
+        /* border:  1px solid blue; */
+    }
+
+    .sec7 .inner .sec7-b{
+        display: none;
+        /* 768이상 레이아웃 안보이게 */
+        
+    }
+
+    .sec7 .inner .sec7-b-390{
+        display: flex;
+    }
+
+
+
+
+    /* =========== footer ============= */
+    footer {
+        width: 100vw;
+        height: 1000px;
+    }
+
+    footer .inner {
+        width: 340px;
+        /* border: 1px solid; */
+        margin: 0 auto;
+    }
+
+    footer .f-top .logo {
+        display: block;
+        text-align: left;
+        margin-bottom: 35px;
+        /* border: 1px solid red; */
+    }
+
+    footer .f-top .menu {
+        /* margin: 0 auto; */
+        display: block;
+        text-align-last: left;
+        width: 100%;
+    }
+
+    footer .f-top .menu li {
+
+        margin-bottom: 20px;
+    }
+
+    footer h3 {
+        display: block;
+        text-align: left;
+        margin-bottom: 20px;
+    }
+
+    footer .f-bottom {
+        width: 90%;
+        display: block;
+    }
+
+    footer .f-bottom p {
+        text-align: left;
+    }
+
+    /* footer .f-bottom h3{
+                    display: block;
+                    text-align: center;
+                }
+                */
+    footer .f-b-r {
+        display: block;
+        justify-content: center;
+        align-items: first baseline;
+        margin-top: 10px;
+        margin-bottom: 50px;
+    }
+
+
+    footer .f-b-l p {
+        width: 90%;
+        font-size: 12px;
+        text-align-last: left;
+        overflow-wrap: break-word;
+        white-space: normal;
+        display: block;
+        /* border: 1px solid red; */
+    }
+
+    footer .f-b-r p,
+    footer .f-b-r b {
+        font-size: 12px;
+        text-align-last: left;
+        overflow-wrap: break-word;
+        white-space: normal;
+        display: block;
+        /* border: 1px solid red; */
+    }
+
+    footer .f-icon-wrap {
+        width: 90%;
+        max-width: 340px;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    footer .f-icon-wrap li a img {
+        display: block;
+        width: 36px;
+    }
+    
+}
